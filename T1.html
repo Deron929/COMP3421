@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.img-1, .img-2, .img-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.img-1 {
+  background-image: url("poly.jpg");
+  min-height: 100%;
+}
+
+.img-2 {
+  background-image: url("people.jpg");
+  min-height: 100%;
+}
+
+.img-3 {
+  background-image: url("student.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .img-1, .img-2, .img-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="img-1">
+  <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">About Polyu</h3>
+  <p> The Hong Kong Polytechnic University (PolyU) is a home for educating thinkers, discoverers, innovators and communicators in delivering positive impact. We are committed to nurturing tomorrow’s leaders today, through a holistic education that provides graduates unrivaled placements to thrive in communities, industries and businesses.</p>
+</div>
+
+<div class="img-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Leadership</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>The leadership team sets the strategic vision and direction in our teaching, research and knowledge transfer endeavours in order to contribute to the social and economic well-being of the community, our nation and the world.</p>
+  </div>
+</div>
+
+<div class="img-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Governance</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>PolyU is committed to the principles of good governance to ensure that the University is fit for its purpose – a higher-learning institution of teaching and research, at the same time providing consultancy and professional services for the benefit of the community.</p>
+  </div>
+</div>
+
+</body>
+</html>

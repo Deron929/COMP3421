@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"> 
+<style>
+body{
+    background-color: #F0FFFF;
+
+}
+.container {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 50%;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 56.25%;
+  margin-top: 21.875%;
+}
+.text{
+    margin-top: 300px;
+}
+</style>
+</head>
+<body>
+<div>
+    <main class='main'> 
+        <section class='left section'>
+            <img src="ggj.png" alt="GGJ" width="600" height="600" >
+        </section>
+        <section class='right section'>
+            <h1 >
+                <a href="https://globalgamejam.org/2022/games/seek-2">My First Game</a>
+            </h1>
+            <p style="font-size:20px" >
+                Participated in a Global Game Jam with friends, although it didn't end up winning. But it is very enjoyable to conceive the script, gameplay, and process of the game. In order to design a good game, everyone spends the night coding. In order to think about a good game theme, we share different games on the market. Analyze the highlights of the game, interesting gameplay, and unexpected plot.
+            </p>
+        </section>
+    </div>
+</div>
+<br><br>
+
+
+<main class='main'> 
+    <section class='left section'>
+        <div class="text">
+        <p style="font-size:20px">The programmer is facing hacking, could you help him? Could you solve the whole problem? His mother passed away unexpectedly many years ago, the family suddenly changed, his temperament changed greatly, and his work was not smooth, but he did not talk to others, and finally caused his personality to split. </p>
+        </div>
+</section>
+    <section class='right section'>
+    <div class="container"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/_Ytx0ucC8pk"></iframe>
+    </section>
+</div>
+</main>
+</body>
+</html>
